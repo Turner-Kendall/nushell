@@ -109,14 +109,13 @@ A quick reference for experienced Bash users learning Nushell.
 
 Edit or create a custom keybindings file:
 
-```bash
 open ~/.config/nushell/keybindings.nu
 
 ---
 
+
 ## 📦 Bonus: Common Translations
 
-```bash
 # Bash
 cat data.csv | grep "CA" | cut -d',' -f1
 
