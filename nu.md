@@ -105,7 +105,7 @@ A quick reference for experienced Bash users learning Nushell.
 
 ---
 
-## ⚙️ Customize Keybindings
+### ⚙️ Customize Keybindings
 
 Edit or create a custom keybindings file:
 
@@ -114,10 +114,10 @@ open ~/.config/nushell/keybindings.nu
 ---
 
 
-## 📦 Bonus: Common Translations
+### 📦 Bonus: Common Translations
 
-# Bash
+##### Bash
 cat data.csv | grep "CA" | cut -d',' -f1
 
-# Nushell
+##### Nushell
 open data.csv | where state == "CA" | get name
